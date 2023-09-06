@@ -24,3 +24,7 @@ jobs:
     uses: ./.github/workflows/build-on-linux.yml
     with:
       debugger_keyword: ${{ inputs.debugger_keyword }}
+  build-on-macos:
+    uses: ./.github/workflows/build-on-macos.yml
+    with:
+      debugger_keyword: ${{ inputs.debugger_keyword }}
